@@ -1,0 +1,147 @@
+*{  
+    margin: 0;  /* Remove a margem padrão de todos os elementos */
+    padding: 0;  /* Remove o preenchimento padrão de todos os elementos */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  /* Define a fonte padrão para a página */
+}
+
+.logo{  
+    width: 150px;  /* Define a largura da logo */
+}
+
+#pagina-home{  
+    height: 773px;  /* Define a altura da seção */
+    background: linear-gradient(rgba(17,17,15,0.404), rgba(34,30,4,0.685)), url(../Img/img-menu.jpg);  /* Fundo com gradiente e imagem */
+    background-size: cover;  /* Faz com que a imagem de fundo cubra toda a seção */
+}
+
+.menu-principal ul{  
+    list-style: none;  /* Remove os marcadores padrões de lista */
+}
+
+.menu-principal ul li {  
+    display: inline-block;  /* Faz com que cada item da lista se comporte como um bloco de linha */
+}
+
+.menu-principal ul li a {  
+    color: white;  /* Define a cor do texto como branca */
+    text-decoration: none;  /* Remove o sublinhado dos links */
+    text-transform: uppercase;  /* Converte o texto para maiúsculo */
+    /* 
+        lowercase = Converte tudo para minúsculo 
+        none = remove qualquer transformação 
+    */
+    padding: 5px 20px;  /* Define o preenchimento interno do link */
+    border: 1px solid transparent;  /* Define uma borda invisível ao redor do link */
+    /* Isso pode ser útil para evitar mudanças de layout ao passar o mouse */
+    transition: 0.06s ease;  /* Define a transição suave para propriedades que mudam */
+    /* Isso cria um efeito visual agradável durante a interação. */
+}
+
+.menu-principal ul li a:hover{  
+    background-color: white;  /* Altera a cor de fundo para branco ao passar o mouse */
+    color: black;  /* Altera a cor do texto para preto ao passar o mouse */
+}
+
+.menu-principal ul li .link-ativo{  
+    background: white;  /* Define o fundo como branco */
+    color: black;  /* Define a cor do texto como preto */
+}
+
+.categoria{  
+    display: flex;  /* Habilita a função de flexbox para alinhamento */
+    align-items: flex-end;  /* Alinha os itens no final do eixo vertical */
+    justify-content: space-between;  /* Distribui os itens com espaço entre eles */
+}
+
+h1{  
+    font-size: 70px;  /* Define o tamanho da fonte como 70 pixels */
+    color: white;  /* Define a cor do texto como branca */
+    margin: 30px;  /* Define a margem externa do título */
+}
+
+.btn{  
+    border: 1px solid white;  /* Define uma borda branca ao redor do botão */
+    padding: 10px 80px;  /* Define o preenchimento interno do botão */
+    color: white;  /* Define a cor do texto como branca */
+    text-decoration: none;  /* Remove o sublinhado do texto do botão */
+    transition: 0.6s ease;  /* Define a transição suave para 0.6 segundos */
+    margin: 10px;  /* Define a margem externa do botão */
+}
+
+.btn:hover{  
+    background: white;  /* Altera a cor de fundo para branco ao passar o mouse */
+    color: black;  /* Altera a cor do texto para preto ao passar o mouse */
+}
+
+.conteudo-banner{  
+    height: 430px;  /* Define a altura da seção do banner */
+    display: flex;  /* Habilita a função de flexbox para alinhamento */
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    align-items: center;  /* Centraliza os itens verticalmente */
+    flex-direction: column;  /* Organiza os itens verticalmente */
+    /* 
+        row: organiza os itens horizontalmente, da esquerda para a direita 
+        row-reverse: organiza os itens horizontalmente, da direita para a esquerda 
+        column-reverse: organiza os itens verticalmente, de baixo para cima 
+        column: organiza os itens verticalmente, de cima para baixo 
+    */
+}
+
+.secao-dois{  
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+}
+
+.fotos{  
+    width: 314px;  /* Define a largura das fotos */
+    height: 368px;  /* Define a altura das fotos */
+}
+
+.escritas {  
+    display: flex;  /* Habilita a função de flexbox */
+    justify-content: space-between;  /* Distribui os itens com espaço entre eles */
+    align-items: center;  /* Alinha os itens verticalmente ao centro */
+}
+
+#galeria-fotos main{  
+    display: flex;  /* Habilita a função de flexbox */
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    margin: 10px; /*Da o espaço escolhido entre as imagens e o inicio da seçao*/
+   
+}
+.fotos{
+    border: 3px solid black; /* Define a borda preta com 3 pixels de largura */
+    padding: 1px; /* adiciona um espaço entre a imagem e a borda */
+    margin: 10px; /* espaçamento da escita para a imagem*/
+}
+.banner-principal {
+    display: flex; /* Habilita layout flexível para as figuras */
+    flex-direction: column; /* Coloca a imagem e a legenda em coluna */
+    align-items: center; /* Centraliza horizontalmente */
+    margin: 40px; /* Espaço entre cada figura */
+}
+.letras{
+    display: flex;  /* Habilita a função de flexbox */
+    justify-content: center;  /* Centraliza os itens horizontalmente */
+    align-items: center;
+}
+
+.letras{
+    color: rgb(255, 255, 255);
+    background-color: orangered;
+    border: 10px;
+    width: 314px;
+    height: 35px;
+    text-align: center;
+}
+
+
+table{
+    letter-spacing: 1px;
+    width: 50%;
+}
+th,td{
+    border: 1px solid;
+    padding: 8px 10px;
+}
+
+
