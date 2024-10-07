@@ -95,13 +95,6 @@ h1{
     width: 314px;  /* Define a largura das fotos */
     height: 368px;  /* Define a altura das fotos */
 }
-
-.escritas {  
-    display: flex;  /* Habilita a função de flexbox */
-    justify-content: space-between;  /* Distribui os itens com espaço entre eles */
-    align-items: center;  /* Alinha os itens verticalmente ao centro */
-}
-
 #galeria-fotos main{  
     display: flex;  /* Habilita a função de flexbox */
     justify-content: center;  /* Centraliza os itens horizontalmente */
@@ -124,7 +117,6 @@ h1{
     justify-content: center;  /* Centraliza os itens horizontalmente */
     align-items: center;
 }
-
 .letras{
     color: rgb(255, 255, 255);
     background-color: orangered;
@@ -133,8 +125,6 @@ h1{
     height: 35px;
     text-align: center;
 }
-
-
 table{
     letter-spacing: 1px;
     width: 50%;
@@ -143,5 +133,13 @@ th,td{
     border: 1px solid;
     padding: 8px 10px;
 }
+.escritas {  
+    display: flex;  /* Habilita a função de flexbox */
+    justify-content: space-between;  /* Distribui os itens com espaço entre eles */
+    align-items: center;  /* Alinha os itens verticalmente ao centro */
+}
 
-
+#tabela{
+    background-color: antiquewhite;
+    text-align: center;
+}
