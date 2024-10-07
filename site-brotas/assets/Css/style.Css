@@ -49,7 +49,7 @@
 
 .categoria{  
     display: flex;  /* Habilita a função de flexbox para alinhamento */
-    align-items: flex-end;  /* Alinha os itens no final do eixo vertical */
+    align-items: center;  /* Alinha os itens no final do eixo vertical */
     justify-content: space-between;  /* Distribui os itens com espaço entre eles */
 }
 
@@ -66,11 +66,6 @@ h1{
     text-decoration: none;  /* Remove o sublinhado do texto do botão */
     transition: 0.6s ease;  /* Define a transição suave para 0.6 segundos */
     margin: 10px;  /* Define a margem externa do botão */
-}
-
-.btn:hover{  
-    background: white;  /* Altera a cor de fundo para branco ao passar o mouse */
-    color: black;  /* Altera a cor do texto para preto ao passar o mouse */
 }
 
 .conteudo-banner{  
@@ -95,28 +90,36 @@ h1{
     width: 314px;  /* Define a largura das fotos */
     height: 368px;  /* Define a altura das fotos */
 }
+
 #galeria-fotos main{  
     display: flex;  /* Habilita a função de flexbox */
     justify-content: center;  /* Centraliza os itens horizontalmente */
     margin: 10px; /*Da o espaço escolhido entre as imagens e o inicio da seçao*/
-   
 }
+
+.fotos:hover{
+    filter: grayscale(100%);
+}
+
 .fotos{
     border: 3px solid black; /* Define a borda preta com 3 pixels de largura */
     padding: 1px; /* adiciona um espaço entre a imagem e a borda */
     margin: 10px; /* espaçamento da escita para a imagem*/
 }
+
 .banner-principal {
     display: flex; /* Habilita layout flexível para as figuras */
     flex-direction: column; /* Coloca a imagem e a legenda em coluna */
     align-items: center; /* Centraliza horizontalmente */
     margin: 40px; /* Espaço entre cada figura */
 }
+
 .letras{
     display: flex;  /* Habilita a função de flexbox */
     justify-content: center;  /* Centraliza os itens horizontalmente */
     align-items: center;
 }
+
 .letras{
     color: rgb(255, 255, 255);
     background-color: orangered;
@@ -125,14 +128,17 @@ h1{
     height: 35px;
     text-align: center;
 }
+
 table{
     letter-spacing: 1px;
     width: 50%;
 }
+
 th,td{
     border: 1px solid;
     padding: 8px 10px;
 }
+
 .escritas {  
     display: flex;  /* Habilita a função de flexbox */
     justify-content: space-between;  /* Distribui os itens com espaço entre eles */
@@ -140,6 +146,10 @@ th,td{
 }
 
 #tabela{
-    background-color: antiquewhite;
+    background-color: antiquewhite; 
+}
+#tabela tr,td{
+    background-color: rgb(221, 235, 236);
     text-align: center;
+    align-items: center;
 }
